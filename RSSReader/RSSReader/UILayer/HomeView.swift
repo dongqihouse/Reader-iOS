@@ -45,7 +45,7 @@ struct HomeContentView: View {
             NavigationLink {
                 FeedsView(feeds: item.items)
             } label: {
-                ItemView(title: item.title,subTitle: item.subtitle , imageName: "star.fill", color: .brown)
+                ItemView(title: item.title,subTitle: item.subtitle)
             } 
         }
     }
@@ -53,13 +53,10 @@ struct HomeContentView: View {
     struct ItemView: View {
         var title: String
         var subTitle: String
-        var imageName: String
-        var color: Color
         
         var body: some View {
             HStack {
-                Image(systemName: imageName)
-                    .foregroundColor(color)
+                Image.icon()
                 VStack(alignment: .leading) {
                     Text(title)
                         .font(.title)

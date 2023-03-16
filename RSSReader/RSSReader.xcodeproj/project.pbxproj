@@ -21,6 +21,7 @@
 		9D3B11E329BE1DDE0064FEAF /* FeedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B11E229BE1DDE0064FEAF /* FeedContentView.swift */; };
 		9D3B11E529BE20E50064FEAF /* NetworkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B11E429BE20E50064FEAF /* NetworkDataSource.swift */; };
 		9D3B11E729BE20FB0064FEAF /* CacheDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B11E629BE20FB0064FEAF /* CacheDataSource.swift */; };
+		9D3B11E929C3622D0064FEAF /* UIImage+Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B11E829C3622D0064FEAF /* UIImage+Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9D3B11E229BE1DDE0064FEAF /* FeedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContentView.swift; sourceTree = "<group>"; };
 		9D3B11E429BE20E50064FEAF /* NetworkDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataSource.swift; sourceTree = "<group>"; };
 		9D3B11E629BE20FB0064FEAF /* CacheDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDataSource.swift; sourceTree = "<group>"; };
+		9D3B11E829C3622D0064FEAF /* UIImage+Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Icon.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				9D3B11D029BB7F400064FEAF /* HomeView.swift */,
 				9D3B11E029BCF92C0064FEAF /* FeedsView.swift */,
 				9D3B11E229BE1DDE0064FEAF /* FeedContentView.swift */,
+				9D3B11E829C3622D0064FEAF /* UIImage+Icon.swift */,
 			);
 			path = UILayer;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				9D3B11C529BB7E510064FEAF /* ContentView.swift in Sources */,
 				9D3B11E129BCF92C0064FEAF /* FeedsView.swift in Sources */,
 				9D3B11E329BE1DDE0064FEAF /* FeedContentView.swift in Sources */,
+				9D3B11E929C3622D0064FEAF /* UIImage+Icon.swift in Sources */,
 				9D3B11E729BE20FB0064FEAF /* CacheDataSource.swift in Sources */,
 				9D3B11DF29BCC4680064FEAF /* Logger.swift in Sources */,
 				9D3B11E529BE20E50064FEAF /* NetworkDataSource.swift in Sources */,

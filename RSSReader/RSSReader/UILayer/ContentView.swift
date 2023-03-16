@@ -13,12 +13,12 @@ struct ContentView: View {
             TabView {
                 HomeView()
                     .tabItem {
-                        Image(systemName: "1.circle")
+                        Image(systemName: "homekit")
                         Text("首页")
                     }
                 Text("FirstView")
                     .tabItem {
-                        Image(systemName: "2.circle")
+                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
                         Text("设置")
                     }
             }
